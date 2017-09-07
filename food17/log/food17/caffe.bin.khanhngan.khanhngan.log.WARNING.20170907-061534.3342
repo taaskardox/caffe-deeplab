@@ -1,0 +1,4 @@
+Log file created at: 2017/09/07 06:15:34
+Running on machine: khanhngan
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0907 06:15:34.275349 12878 data_transformer.cpp:332] Check failed: img_height == seg_height (384 vs. 512) 

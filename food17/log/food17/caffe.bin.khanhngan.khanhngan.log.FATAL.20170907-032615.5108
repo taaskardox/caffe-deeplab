@@ -1,0 +1,4 @@
+Log file created at: 2017/09/07 03:26:15
+Running on machine: khanhngan
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0907 03:26:15.726022  5108 io.cpp:32] Check failed: fd != -1 (-1 vs. -1) File not found: voc12/config/food17/train_train.prototxt

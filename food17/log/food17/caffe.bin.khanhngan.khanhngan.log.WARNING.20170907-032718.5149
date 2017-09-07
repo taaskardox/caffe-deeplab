@@ -1,0 +1,4 @@
+Log file created at: 2017/09/07 03:27:18
+Running on machine: khanhngan
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0907 03:27:18.193709  5149 softmax_loss_layer.cpp:86] Unexpected label 98
