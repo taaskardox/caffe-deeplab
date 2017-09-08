@@ -31,9 +31,9 @@ layers {
     shuffle: true
   }
   transform_param {
-    mean_value: 104.008
-    mean_value: 116.669
-    mean_value: 122.675
+    mean_value: 97.382
+    mean_value: 97.709
+    mean_value: 98.044
     crop_size: 321
     mirror: true
   }

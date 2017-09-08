@@ -1,0 +1,4 @@
+Log file created at: 2017/09/07 19:48:14
+Running on machine: khanhngan
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0907 19:48:14.805083  4684 data_transformer.cpp:331] Check failed: img_channels == data_channels (1 vs. 3) 

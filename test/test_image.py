@@ -11,10 +11,10 @@ from os.path import exists, join, split, splitext
 import shutil
 
 image_path =''
-def test_image(gpu, image_path):
+def predict_image(gpu, image_path):
   deploy_net = '/home/khanhngan/tuan.khai/DeepLab-Context/food17/config/food17/test.prototxt'
-  weights = '/home/khanhngan/tuan.khai/DeepLab-Context/food17/model/food17/train_iter_4000.caffemodel'
-  mean_pixel=[104.008, 116.669, 122.675]
+  weights = '/home/khanhngan/tuan.khai/DeepLab-Context/food17/model/food17/train_iter_3000.caffemodel'
+  mean_pixel=[97.382,97.709,98.044]
   net = caffe.Net(deploy_net, weights)
   net.set_phase_test() 
   if gpu >= 0:
@@ -63,6 +63,6 @@ def test_image(gpu, image_path):
     im.putpalette(palette.flatten())
     im.save(out_path)
 
-if __name__ == "__main__":
-  test_image(-1, image_path)
+#if __name__ == "__main__":
+  #test_image(-1, image_path)
 
